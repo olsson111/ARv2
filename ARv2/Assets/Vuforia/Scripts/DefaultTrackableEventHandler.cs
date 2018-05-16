@@ -17,6 +17,16 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
+    #region
+
+    [SerializeField]
+    protected GameObject playerScanCanvas;
+
+
+    #endregion
+
+
+
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
